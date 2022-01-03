@@ -1,14 +1,7 @@
 # C4log
-# The best C++ Logger class,very useful and simple
-   
-   THIS IS A C++ EASY LIBRARY
+C++ Library,check README!!.txt for more tips and explainations
 
-   DEVELOPED BY ROBERTO SCANDALE c4LOG
-   
-   use README.TXT....
-   
-   IN THE MAIN THERE ARE SOME EXAPLES WITH LOGGER CLASS
-
+Main.exe is runnable and as well you can try the class
 
 # Running
 
