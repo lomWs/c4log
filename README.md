@@ -10,3 +10,7 @@
    IN THE MAIN THERE ARE SOME EXAPLES WITH LOGGER CLASS
 
 
+# Running
+
+1. Download the project and extract it.
+2. Run main 
