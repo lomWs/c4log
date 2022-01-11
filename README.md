@@ -1,4 +1,4 @@
-# C4log
+# C4log WIN
 C++ Library,check README!!.txt for more tips and explainations
 
 Main.exe is runnable and as well you can try the class
