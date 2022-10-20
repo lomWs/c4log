@@ -31,17 +31,17 @@ USE IS VERY SIMPLY
 
 
 #LOGGER CLASS
-    * PRIVATE ATTRIBUTES:
-        **  CHAR *DIR_PATH -> CONTAINS THE DIR'S PATH 
-        **  STRING LOGFILE_PATH -> CONTAINS LOGFILE_PATH = str+log_FileName+randomString_GENERATOR()+ ".log";
-    * PRIVATE METHODS:
-        ** randomString_GENERATOR() -> RETURN A UNIQUE STRING OF NUMBER
-        ** currentDateTime() -> RETURN A CURRENT DATE-TIME (format : "%d-%m-%Y %X")
-    * PUBLIC METHODS:
-        ** Logger(string log_FileName) -> COSTRUCTOR USER PUT THE NAME OF THE FILE AND IT BUILD A LOG OBJECT WITH OWN PERSONAL FILE
-        ** writeOnFile(std::string log) -> WRITE ON LOG FILE A STRING AND ATTACCHED A CURRRENT DATE TIME
-        ** deleteLogFile(std::string fileName) -> DELETE A FILE WITH FILE NAME
-        ** returnLogFile() -> RETURN A STRING WITH ALL YOUR LOG
+* PRIVATE ATTRIBUTES:
+**  CHAR *DIR_PATH -> CONTAINS THE DIR'S PATH 
+**  STRING LOGFILE_PATH -> CONTAINS LOGFILE_PATH = str+log_FileName+randomString_GENERATOR()+ ".log";
+* PRIVATE METHODS:
+** randomString_GENERATOR() -> RETURN A UNIQUE STRING OF NUMBER
+** currentDateTime() -> RETURN A CURRENT DATE-TIME (format : "%d-%m-%Y %X")
+* PUBLIC METHODS:
+** Logger(string log_FileName) -> COSTRUCTOR USER PUT THE NAME OF THE FILE AND IT BUILD A LOG OBJECT WITH OWN PERSONAL FILE
+** writeOnFile(std::string log) -> WRITE ON LOG FILE A STRING AND ATTACCHED A CURRRENT DATE TIME
+** deleteLogFile(std::string fileName) -> DELETE A FILE WITH FILE NAME
+** returnLogFile() -> RETURN A STRING WITH ALL YOUR LOG
   
 #\LOGGER CLASS
 
