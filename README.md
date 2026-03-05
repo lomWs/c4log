@@ -1,48 +1,31 @@
-# C4log WIN
-C++ Library,check README!!.txt for more tips and explainations
+# C4Log
 
-Main.exe is runnable and as well you can try the class
+C4Log is a simple C++ logging library designed for educational purposes.  
+It allows you to easily create log files, write messages with timestamps, and read or delete log files.
 
-# Use
+This project demonstrates basic concepts such as:
 
-1.PUT Logger.h && Logger.cpp IN THE SAME FOLDER
+- file handling in C++
+- logging systems
+- date and time formatting
+- simple class design
 
-2.#include "Logger.h" || #include "../ownfolder/Logger.h"
+⚠️ This library is intended for learning purposes.
 
-3.HAVE FUN 
+---
 
+# Features
 
-# Running
+- Automatic log file creation
+- Timestamped log messages
+- Unique log file names
+- Read entire log file content
+- Delete log files when needed
+- Very easy integration into any C++ project
 
-1. Download the project and extract it.
-2. Run main 
+---
 
-#Library explaining
+# Installation
 
-#THIS IS A C++ EASY LIBRARY#
+1. Copy `Logger.h` and `Logger.cpp` into your project directory.
 
-USE IS VERY SIMPLY  
-
-    1)PUT Logger.h && Logger.cpp IN THE SAME FOLDER
-
-    2)#include "Logger.h" || #include "../ownfolder/Logger.h"
-
-    3)HAVE FUN 
-
-
-#LOGGER CLASS
-* PRIVATE ATTRIBUTES:
- -CHAR *DIR_PATH -> CONTAINS THE DIR'S PATH 
- -STRING LOGFILE_PATH -> CONTAINS LOGFILE_PATH = str+log_FileName+randomString_GENERATOR()+ ".log";
-* PRIVATE METHODS:
-  --randomString_GENERATOR() -> RETURN A UNIQUE STRING OF NUMBER
- -currentDateTime() -> RETURN A CURRENT DATE-TIME (format : "%d-%m-%Y %X")
- * PUBLIC METHODS:
- -Logger(string log_FileName) -> COSTRUCTOR USER PUT THE NAME OF THE FILE AND IT BUILD A LOG OBJECT WITH OWN PERSONAL FILE
- -writeOnFile(std::string log) -> WRITE ON LOG FILE A STRING AND ATTACCHED A CURRRENT DATE TIME
- -deleteLogFile(std::string fileName) -> DELETE A FILE WITH FILE NAME
- -returnLogFile() -> RETURN A STRING WITH ALL YOUR LOG
-  
-#LOGGER CLASS
-
-//--------DEVELOPED BY ROBERTO SCANDALE c4LOG--------//
