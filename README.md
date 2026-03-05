@@ -10,7 +10,6 @@ This project demonstrates basic concepts such as:
 - date and time formatting
 - simple class design
 
-⚠️ This library is intended for learning purposes.
 
 ---
 
