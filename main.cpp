@@ -1,17 +1,21 @@
+#include "src/Logger.h"
 #include <iostream>
 
-using std::cin;
-using std::cout;
+int main() {
+    Logger::Options opts;
+    opts.directory = "logFiles";
+    opts.append = true;
 
-#include "Logger.h"
+    Logger log("my_app", opts);
 
-int main(){
-    //EASY USEFUL EXAMPLE 
-    Logger logger("log");
+    log.write(Logger::Level::Info, "Hello log!");
+    log.write(Logger::Level::Error, "Something went wrong.");
 
+    std::cout << log.readAll() << "\n";
 
-    logger.writeOnFile("Error: no file such");
-    logger.writeOnFile("Success: operation complete");
-    
+    // Delete (optional)
+    // std::error_code ec;
+    // log.remove(ec);
+
     return 0;
 }
